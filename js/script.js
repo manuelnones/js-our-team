@@ -5,8 +5,8 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
     x creare array 
     x creare oggetti all interno dell array
     x stampare in console nome, ruolo e stringa foto per ogni membro
-    - stampare le stesse informazioni ma in pagina
-    - creare le variabili degli elementi html
+    x creare le variabili degli elementi html
+    x stampare le stesse informazioni ma in pagina
 
 */
 
