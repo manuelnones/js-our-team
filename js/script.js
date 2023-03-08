@@ -2,14 +2,13 @@
 Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membri del team.
 Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 
-    - creare array 
-    - creare oggetti all interno dell array
-    - stampare in console nome, ruolo e stringa foto per ogni membro
+    x creare array 
+    x creare oggetti all interno dell array
+    x stampare in console nome, ruolo e stringa foto per ogni membro
 
 */
 
-const arrayMembers = [
-    {
+const arrayMembers = [{
         nome: `Wayne Barnett`,
         ruolo: `Founder & CEO`,
         foto: `wayne-barnett-founder-ceo.jpg`,
@@ -40,3 +39,8 @@ const arrayMembers = [
         foto: `barbara-ramos-graphic-designer.jpg`,
     }
 ];
+
+for (let key in arrayMembers) {
+    console.log(arrayMembers[key].nome + ` ` + arrayMembers[key].ruolo + ` ` + arrayMembers[key].foto);
+
+};
