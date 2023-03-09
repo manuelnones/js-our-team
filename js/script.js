@@ -68,10 +68,14 @@ const img5Element = document.getElementById(`img5`);
 const img6Element = document.getElementById(`img6`);
 
 
-for (let key in arrayMembers) {
-    console.log(arrayMembers[key].nome + ` ` + arrayMembers[key].ruolo + ` ` + arrayMembers[key].foto);
-
+for (i = 0; i < arrayMembers.length; i++) {
+    membroCorrente = arrayMembers[i];
+    for (let key in membroCorrente) {
+        console.log(key + `: ` + membroCorrente[key]);
+    
+    };
 };
+
 
 
 titleNameElement.innerHTML = `Name`;
